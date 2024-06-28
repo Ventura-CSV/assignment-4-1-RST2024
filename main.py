@@ -11,12 +11,11 @@ def main():
             continue
         if start_num > end_num:
             print ("The start letter needs to be before the end letter")
-            continue
         else:
             break
         
-        for i in range(start_num, end_num + 1):
-            result.append(chr(i))
+    for i in range(start_num, end_num + 1):
+        result.append(chr(i))
         
         
 
