@@ -2,8 +2,8 @@ def main():
     result = []
     while True:
         start = input('Enter the starting letter: ')
-        end = input('Enter the starting letter: ')
-        if (start.isalpha() and len(start) ==1) and (end.isalpha and len(end) == 1):
+        end = input('Enter the Ending letter: ')
+        if (start.isalpha() and len(start) == 1) and (end.isalpha and len(end) == 1):
             start_num = ord(start)
             end_num = ord(end)
         else:
